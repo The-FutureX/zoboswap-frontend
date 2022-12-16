@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+
+:root {
+    --primary-color: #2b4db9;
+    --font-body: 'Roboto', sans-serif;
+    --font-heading: Jost, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    /*font-family: var(--font-body);*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+    color: rgba(255, 255, 255, .5);
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.bt-social ul li{
+    list-style: none;
+}
+
+.bt-social ul li a{
+    font-size: 20px;
+    margin: 0 10px;
+    color: var(--bs-white);
+}
